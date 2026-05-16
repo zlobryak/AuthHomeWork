@@ -17,9 +17,9 @@ class AppAuth private constructor(context: Context) {
         if (id == 0L || token == null) {
             _authStateFlow = MutableStateFlow(AuthState())
             with(prefs.edit()) {
-               clear()
-               apply()
-           }
+                clear()
+                apply()
+            }
         } else {
             _authStateFlow = MutableStateFlow(AuthState(id, token))
         }
@@ -44,6 +44,7 @@ class AppAuth private constructor(context: Context) {
             clear()
             commit()
         }
+
     }
 
     companion object {
