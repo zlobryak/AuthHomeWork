@@ -16,7 +16,6 @@ import androidx.core.view.MenuProvider
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.navigation.findNavController
-import androidx.navigation.fragment.findNavController
 import com.google.android.gms.common.ConnectionResult
 import com.google.android.gms.common.GoogleApiAvailability
 import com.google.firebase.messaging.FirebaseMessaging

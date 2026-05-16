@@ -18,8 +18,6 @@ class AuthFragment : Fragment() {
     private val viewModel: AuthFragmentViewModel by activityViewModels()
 
     private var _binding: FragmentLoginBinding? = null
-    private val binding get() = _binding!!
-
 
     override fun onCreateView(
         inflater: LayoutInflater,
