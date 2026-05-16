@@ -8,6 +8,8 @@ import ru.netology.nmedia.auth.AppAuth
 import ru.netology.nmedia.auth.AuthState
 
 class AuthViewModel : ViewModel() {
+
+
     val data: LiveData<AuthState> = AppAuth.getInstance()
         .authStateFlow
         .asLiveData(Dispatchers.Default)
